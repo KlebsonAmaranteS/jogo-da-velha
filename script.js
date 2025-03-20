@@ -77,7 +77,7 @@ function reiniciar() {
         celula.textContent = '';
         celula.classList.remove('vencedora');
         celula.style.backgroundColor = '';
-        //celula.style.color = '';
+        celula.style.color = '';
     });
     const resultado = document.getElementById('resultado');
     resultado.textContent = '';
